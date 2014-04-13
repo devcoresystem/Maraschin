@@ -1,7 +1,14 @@
 package br.system.core.visao;
 
+import javax.swing.JOptionPane;
+
 public class Login {
-	public static void main(String [] args){
-		javax.swing.JOptionPane.showMessageDialog(null, "Teste");
+	
+	public Login(){
+		initComponents();
+	}
+	
+	private void initComponents(){
+		JOptionPane.showMessageDialog(null, "Testando projeto no GitHub");
 	}
 }
